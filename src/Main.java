@@ -117,7 +117,7 @@ class Main {
         br.close();
         fw.close();
         fr.close();
-        System.out.println(file.delete());
+        file.delete();
 
         tempFile.renameTo(file);
         return count;
